@@ -1,4 +1,5 @@
 # Multi-tenancy Migration Steps
+## For Existing DB
 1. **Run Migrations**
    - `php artisan migrate`
 2. **Create Tenant**
@@ -18,7 +19,7 @@
    - You can now login normally with your existing accounts.
      
   
-# Fresh Database Setup
+## For Fresh DB
 1. **Setup Database**
    - Run migrations and seeders: `php artisan migrate --seed`
 
