@@ -22,10 +22,8 @@
 ## For Fresh DB
 1. **Setup Database**
    - Run migrations and seeders: `php artisan migrate --seed`
-
 2. **Access System**
    - Login with superadmin credentials
-
 3. **Create Tenants**
    - Create tenants via PM collection with the admin accounts info
    - Tenant admin user would get email to reset there passowrd
